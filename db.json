@@ -1,0 +1,124 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Classic White Sneakers",
+      "price": 85,
+      "description": "Premium leather sneakers with a minimalist design.",
+      "category": "Footwear",
+      "image": "https://via.placeholder.com/150",
+      "stock": 10
+    },
+    {
+      "id": "2",
+      "name": "Organic Cotton Tee",
+      "price": 25.5,
+      "description": "Soft, breathable cotton t-shirt in various colors.",
+      "category": "Apparel",
+      "image": "https://via.placeholder.com/150",
+      "stock": 25
+    }
+  ],
+  "users": [
+    {
+      "id": "admin",
+      "name": "Platform Admin",
+      "email": "admin@powerhouse.com",
+      "password": "admin123",
+      "role": "admin",
+      "status": "verified"
+    },
+    {
+      "id": "1",
+      "email": "loki@gmail.com",
+      "password": "loki123",
+      "name": "iniyan",
+      "role": "customer",
+      "status": "verified"
+    },
+    {
+      "id": "2",
+      "email": "iniyan@gmail.com",
+      "password": "123",
+      "name": "iniyan",
+      "role": "customer",
+      "status": "verified"
+    },
+    {
+      "id": "3",
+      "email": "sakthi123@gmail.com",
+      "password": "1234",
+      "name": "iniyan",
+      "role": "customer",
+      "status": "verified"
+    },
+    {
+      "name": "guru",
+      "email": "guru@gmail.com",
+      "password": "12345678",
+      "id": "YZs9t9g",
+      "role": "customer",
+      "status": "verified"
+    },
+    {
+      "name": "saro",
+      "email": "saravanan@gmail.com",
+      "password": "12345678",
+      "id": "i5i09N9",
+      "role": "customer",
+      "status": "verified"
+    },
+    {
+      "name": "xmen",
+      "email": "xmen@gmail.com",
+      "password": "87654321",
+      "id": "_xnKEXe",
+      "role": "customer",
+      "status": "verified"
+    },
+    {
+      "name": "sabeek",
+      "email": "sabeek@gmail.com",
+      "password": "123456789",
+      "id": "WrRA6V3",
+      "role": "customer",
+      "status": "verified"
+    },
+    {
+      "name": "sara",
+      "email": "sara@gmail.com",
+      "password": "123456",
+      "id": "1CmAolH",
+      "role": "customer",
+      "status": "verified"
+    }
+  ],
+  "orders": [
+    {
+      "id": "101",
+      "userId": "1",
+      "items": [
+        {
+          "productId": "1",
+          "quantity": 1
+        }
+      ],
+      "total": 85,
+      "status": "Delivered",
+      "date": "2026-04-10"
+    }
+  ],
+  "disputes": [
+    {
+      "id": "d1",
+      "orderId": "101",
+      "customerId": "1",
+      "sellerId": "seller1",
+      "status": "open",
+      "subject": "Missing Item",
+      "description": "I received the package but the sneakers were missing.",
+      "createdAt": "2026-04-12T10:00:00Z"
+    }
+  ],
+  "cart": []
+}
